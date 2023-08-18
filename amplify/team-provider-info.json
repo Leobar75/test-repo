@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-portal2dataenginefro-dev-191958-authRole",
+      "UnauthRoleArn": "arn:aws:iam::332206763802:role/amplify-portal2dataenginefro-dev-191958-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::332206763802:role/amplify-portal2dataenginefro-dev-191958-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-portal2dataenginefro-dev-191958-deployment",
+      "UnauthRoleName": "amplify-portal2dataenginefro-dev-191958-unauthRole",
+      "StackName": "amplify-portal2dataenginefro-dev-191958",
+      "StackId": "arn:aws:cloudformation:us-east-1:332206763802:stack/amplify-portal2dataenginefro-dev-191958/79095e10-3deb-11ee-a1dc-0e1c5f87d3fd",
+      "AmplifyAppId": "d1uat5ndujzni1"
+    }
+  }
+}
