@@ -28,7 +28,7 @@ pool:
 
 #Variable group
 variables:
-  - group: Pipeline_Variables_Portal_2.0
+  - group: Pipeline_Variables_Portal_2.0_Data_Engine
 
 # Pipeline
 steps:
