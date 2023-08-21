@@ -26,10 +26,10 @@
   dependencies:
     clsx "2.0.0"
 
-"@eoschools/portal2-common-components@^0.1.4":
-  version "0.1.4"
-  resolved "https://eoschools-332206763802.d.codeartifact.us-east-1.amazonaws.com/npm/portal2-common/@eoschools/portal2-common-components/-/portal2-common-components-0.1.4.tgz#fdcdb26c11bb03f8728598c54745b688c564071d"
-  integrity sha512-0QNZUngro4IwVt5Y5lVJI7dUoJfmKSzoAyWy8hjgcnYRcJMM/rX/hwhb1UZ1rAC9jV9Lrka4fIgQEJMJLhj+VQ==
+"@eoschools/portal2-common-components@^0.1.6":
+  version "0.1.6"
+  resolved "https://eoschools-332206763802.d.codeartifact.us-east-1.amazonaws.com/npm/portal2-common/@eoschools/portal2-common-components/-/portal2-common-components-0.1.6.tgz#f69295232f92b8b22219dd9e51f60a92ad5d2d3a"
+  integrity sha512-JMrQ0I3d+h0WCM7aFVWMQO6V5JSVP+AV5P/GXSkziNeuY3tRut0bQjCXtxT8XHmTecwLBp/qcaehHIGhRvzhHA==
   dependencies:
     "@eoschools/class-variance-authority" "^0.7.1"
     react-icons "^4.10.1"
