@@ -19,18 +19,19 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@eoschools/class-variance-authority@file:assets/eoschools-class-variance-authority-0.7.1.tgz":
+"@eoschools/class-variance-authority@^0.7.1":
   version "0.7.1"
-  resolved "file:assets/eoschools-class-variance-authority-0.7.1.tgz#786240be26245ee8e8df6614e7d076f1159cddac"
+  resolved "https://eoschools-332206763802.d.codeartifact.us-east-1.amazonaws.com/npm/portal2-common/@eoschools/class-variance-authority/-/class-variance-authority-0.7.1.tgz#66347172f3080be57701aad12a078a632dacff74"
+  integrity sha512-Jz73h82qlgGFqNGgdhPwWcJsU8eT6usndIcAZ2i+WMKrUHSRv3tp+o/W2ARBWyqpcHOMBbSI/7As2vStF6GhAQ==
   dependencies:
     clsx "2.0.0"
 
-"@eoschools/portal2-common-components@^0.1.3":
-  version "0.1.3"
-  resolved "https://eoschools-332206763802.d.codeartifact.us-east-1.amazonaws.com/npm/portal2-common/@eoschools/portal2-common-components/-/portal2-common-components-0.1.3.tgz#838d67fdfd1f11abeb7eb2dac4dcaa2519395696"
-  integrity sha512-azF2DYE5zANYrTOgtJAXNMLKC2KmGJrrQgBYXKDMzM39TjUZOfHu9qzOaajAtfjcQ1Jg9zGOjMzdnHK8zRyPgw==
+"@eoschools/portal2-common-components@^0.1.4":
+  version "0.1.4"
+  resolved "https://eoschools-332206763802.d.codeartifact.us-east-1.amazonaws.com/npm/portal2-common/@eoschools/portal2-common-components/-/portal2-common-components-0.1.4.tgz#fdcdb26c11bb03f8728598c54745b688c564071d"
+  integrity sha512-0QNZUngro4IwVt5Y5lVJI7dUoJfmKSzoAyWy8hjgcnYRcJMM/rX/hwhb1UZ1rAC9jV9Lrka4fIgQEJMJLhj+VQ==
   dependencies:
-    "@eoschools/class-variance-authority" "file:../../../../.cache/yarn/v6/npm-@eoschools-portal2-common-components-0.1.3-838d67fdfd1f11abeb7eb2dac4dcaa2519395696-integrity/node_modules/@eoschools/portal2-common-components/assets/eoschools-class-variance-authority-0.7.1.tgz"
+    "@eoschools/class-variance-authority" "^0.7.1"
     react-icons "^4.10.1"
     tailwind-merge "^1.14.0"
     vite "^4.4.9"
