@@ -1,22 +1,24 @@
+BASE_PREFIX_APP = '/data'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: process.env.ASSETS_CDN,
+  assetPrefix: BASE_PREFIX_APP,
   async rewrites() {
     return [
       /** ASSET PREFIX */
       {
-        source: `${process.env.ASSETS_CDN}/_next/:path*`,
-        destination: '_next/:path*',
+        source: `${BASE_PREFIX_APP}/_next/:path*`,
+        destination: '/_next/:path*',
       },
       /** IMAGE PREFIX */
       {
-        source: `${process.env.ASSETS_CDN}/images/:query*`,
+        source: `${BASE_PREFIX_APP}/images/:query*`,
         destination: '/_next/image/:query*',
       },
       /** API PREFIX */
       {
-        source: `${process.env.ASSETS_CDN}/api/:path*`,
+        source: `${BASE_PREFIX_APP}/api/:path*`,
         destination: '/api/:path*',
       },
     ];
