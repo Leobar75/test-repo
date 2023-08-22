@@ -10,7 +10,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@eoschools/portal2-common-components": "^0.1.6",
     "autoprefixer": "10.4.14",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
