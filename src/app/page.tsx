@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "@eoschools/portal2-common-components/index.css";
-import { Button } from "@eoschools/portal2-common-components";
+import { Button, Label } from "@eoschools/portal2-common-components";
 
 export default function Home() {
   return (
@@ -42,6 +42,7 @@ export default function Home() {
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+        <Label>Test</Label>
         <Button>Login</Button>
 
         <a
